@@ -1,1 +1,36 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
 
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+#virus {
+  color: #dc143c;
+  font-weight: 700;
+}
+
+#home-section {
+  background: url(/cdc-k0KRNtqcjfw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 700px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 150;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home-section .home-inner {
+  padding-top: 150px;
+}
